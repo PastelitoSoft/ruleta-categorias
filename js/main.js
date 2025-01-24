@@ -63,7 +63,7 @@ function girar() {
     if (categorias.length === 0) {
         console.log("El juego ha terminado. No quedan más categorías.");
         tiempo.style.display = 'none';
-        titulo.innerText = "";
+        //titulo.innerText = "";
         const btnReinicioClonado = btnReinicio.cloneNode(true);
         modalTarjeta.appendChild(btnReinicioClonado);
         btnReinicioClonado.addEventListener('click', () => {
@@ -113,7 +113,7 @@ function calcular(rotacionFinal, anguloSeleccionado) {
         // Esperar 2 segundos antes de iniciar la cuenta regresiva
         setTimeout(() => {
             //modal.style.display = 'block';
-            titulo.innerText = nombreCategoria[0];
+            //titulo.innerText = nombreCategoria[0];
             carta.src = `./res/img/${nombreCategoria[1]}.png`;
             modal.classList.add('show');
             toggleBlur(true); // Aplicar el desenfoque

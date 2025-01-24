@@ -207,7 +207,8 @@ body {
 @media only screen and (max-width: 800px) {
     .modal-tarjeta {
         width: 80%;
-        height: 80%;
+        height: 75%;
+        margin-top: 0.5rem;
 
     }
 
@@ -221,6 +222,15 @@ body {
     .categoria {
         font-size: 3rem;
         font-weight: bold;
+    }
+
+    .contenedor-principal {
+        justify-content: flex-start;
+    }
+
+    .contenedor-ruleta {
+        display: flex;
+        margin-top: 0.5rem;
     }
 
 }
@@ -229,6 +239,7 @@ body {
     .modal-tarjeta {
         width: 95%;
         height: 80%;
+        margin-top: 0.5rem;
 
     }
 
@@ -244,10 +255,16 @@ body {
 
     }
 
-    body {
-
-        overflow: scroll;
+    .contenedor-principal {
+        justify-content: flex-start;
     }
+
+    .contenedor-ruleta {
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+
 }
 
 
